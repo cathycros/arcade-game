@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Froggery: Front-End Web Developer Nanodegree Project 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="functionPanel">
+    	<h1>Welcome to Froggery!</h1>
+
+    	<div class="instructionsPanel">
+	    	<p><strong>Object of the game:</strong> Rescue the the boy by moving him from the <span class="green-text"><strong>grassy area</strong></span> at the bottom of the game area to the safety of the <span class="blue-text"><strong>water</strong> at the top</span>, while avoiding the enemy 'bugs' running through the rocky areas</p>
+
+	    	<ol>
+	    		<li class="one">Use the arrow keys to move, one square at a time: <strong>Up, Down, Left, or Right</strong></li>
+	    		<li class="two">Be careful! If an <strong>enemy BUG crashes into you</strong>, you'll be sent back to the grassy area and will have to start over!</li>
+	    		<li class="three">Each time you crash into an enemy, you lose a life - <strong>lose all your lives and the game is over</strong></li>
+	    	</ol>
+		</div>
+
+		<!-- Buttons for game start, reset, stop - allows the user to have control -->
+    	<input type="button" name="buttonStart" id="buttonStart" value="Start" disabled>
+    	<input type="button" name="buttonReset" id="buttonReset" value="Reset" disabled>
+    	<input type="button" name="buttonStop" id="buttonStop" value="Stop" disabled>
+	</div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>

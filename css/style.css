@@ -1,0 +1,65 @@
+body {
+	font-family: tahoma, arial, sans-serif;
+    text-align: center;
+    background-color: rgba(209, 209, 199, 1);
+    margin: 60px auto;
+}
+
+.functionPanel {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.instructionsPanel {
+	text-align: left;
+}
+
+.green-text {
+	color: rgba(95, 192, 72, 1);
+}
+
+.blue-text {
+	color: rgba(81, 105, 211, 1);
+}
+
+ol {
+	text-align: center;
+}
+
+ol li {
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	padding: 0 30px 0 0;
+	text-align: left;
+	text-indent: -16px;
+}
+
+ol li::before {
+    color: rgba(255, 0, 0, 1);
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.one::before {
+	content: "1";
+}
+
+.two::before {
+	content: "2";
+}
+
+.three::before {
+	content: "3";
+}
+
+input[type=button] {
+	padding: 5px 15px;
+	margin: 10px 15px -5px;
+	background-color: rgba(222, 216, 199, 1);
+	font-size: 1.2em;
+	border: 1px solid #333;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
